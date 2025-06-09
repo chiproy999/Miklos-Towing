@@ -1,0 +1,24 @@
+
+> app@0.1.0 dev
+> next dev
+
+   Loading config from /home/ubuntu/miklostowing/app/next.config.js
+   Loading config from /home/ubuntu/miklostowing/app/next.config.js
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://100.104.157.242:3000
+   - Environments: .env
+
+ ✓ Starting...
+   Loading config from /home/ubuntu/miklostowing/app/next.config.js
+   Loading config from /home/ubuntu/miklostowing/app/next.config.js
+ ✓ Ready in 2.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.7s (818 modules)
+ GET / 200 in 5211ms
+ ✓ Compiled in 559ms (364 modules)
+ ⚠ Cross origin request detected from 433bd1f62.preview.abacusai.app to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled in 646ms (811 modules)
+ GET / 200 in 84ms
+[?25h

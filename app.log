@@ -1,0 +1,191 @@
+
+> app@0.1.0 dev
+> next dev --hostname 0.0.0.0 --port 3000
+
+  ▲ Next.js 14.2.28
+  - Local:        http://localhost:3000
+  - Network:      http://0.0.0.0:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.7s (589 modules)
+ HEAD / 200 in 5915ms
+ ✓ Compiled in 420ms (298 modules)
+ HEAD / 200 in 41ms
+ GET / 200 in 51ms
+ GET / 200 in 37ms
+ GET / 200 in 39ms
+ GET / 200 in 39ms
+ GET / 200 in 43ms
+ ○ Compiling /_not-found ...
+ ⨯ ../node_modules/next/dist/lib/require-instrumentation-client.js
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+../node_modules/next/dist/client/app-next-dev.js
+ ⨯ ../node_modules/next/dist/lib/require-instrumentation-client.js
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+../node_modules/next/dist/client/page-bootstrap.js
+../node_modules/next/dist/client/next-dev.js
+ ⨯ Error: Cannot find module 'next/dist/server/future/route-modules/pages/vendored/contexts/html-context'
+Require stack:
+- /home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/next.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at /home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:55:36
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (/home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:63:32)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js:45:35)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (/home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:136:16)
+    at loadDefaultErrorComponentsImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js:18:58)
+    at DevServer.getFallbackErrorComponents (/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:594:81)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.renderErrorToResponseImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:2203:40)
+    at async DevServer.pipeImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/ubuntu/miklostowing/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:818:17)
+    at async /home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/home/ubuntu/miklostowing/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:178:21)
+    at async handleRequest (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:355:24)
+    at async requestHandlerImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:379:13)
+    at async Server.requestListener (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/next.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+Error: Cannot find module 'next/dist/server/future/route-modules/pages/vendored/contexts/html-context'
+Require stack:
+- /home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/next.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at /home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:55:36
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (/home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:63:32)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js:45:35)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (/home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:136:16)
+    at loadDefaultErrorComponentsImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js:18:58)
+    at DevServer.getFallbackErrorComponents (/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:594:81)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.renderErrorToResponseImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:2203:40)
+    at async DevServer.pipeImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/ubuntu/miklostowing/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:818:17)
+    at async /home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/home/ubuntu/miklostowing/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:178:21)
+    at async handleRequest (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:355:24)
+    at async requestHandlerImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:379:13)
+    at async Server.requestListener (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/next.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+Error: Cannot find module 'next/dist/server/future/route-modules/pages/vendored/contexts/html-context'
+Require stack:
+- /home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/next.js
+- /home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at /home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:55:36
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (/home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:63:32)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js:45:35)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (/home/ubuntu/miklostowing/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:136:16)
+    at loadDefaultErrorComponentsImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js:18:58)
+    at DevServer.getFallbackErrorComponents (/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:594:81)
+    at async DevServer.renderErrorToResponseImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:2203:40)
+    at async pipe.req.req (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:2056:30)
+    at async DevServer.pipeImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/base-server.js:922:25)
+    at async /home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/home/ubuntu/miklostowing/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:178:21)
+    at async requestHandlerImpl (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/router-server.js:391:24)
+    at async Server.requestListener (/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/miklostowing/node_modules/next/dist/pages/_document.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/load-default-error-components.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/dev/next-dev-server.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/next.js',
+    '/home/ubuntu/miklostowing/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET / 500 in 2874ms
+ GET / 500 in 4ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/home/ubuntu/miklostowing/node_modules/next/dist/telemetry/ci-info.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving 'next/dist/telemetry/ci-info' in /home/ubuntu/miklostowing/node_modules/next/dist/lib for build dependencies doesn't lead to expected result '/home/ubuntu/miklostowing/node_modules/next/dist/telemetry/ci-info.js', but to 'Error: Can't resolve 'next/dist/telemetry/ci-info' in '/home/ubuntu/miklostowing/node_modules/next/dist/lib'' instead. Resolving dependencies are ignored for this path.
+<w>  at unknown 4 next/dist/telemetry/ci-info
+<w>  at file dependencies /home/ubuntu/miklostowing/node_modules/next/dist/lib/patch-incorrect-lockfile.js
+<w>  at file /home/ubuntu/miklostowing/node_modules/next/dist/lib/patch-incorrect-lockfile.js
+<w>  at file dependencies /home/ubuntu/miklostowing/node_modules/next/dist/build/swc/index.js
+<w>  at file /home/ubuntu/miklostowing/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /home/ubuntu/miklostowing/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /home/ubuntu/miklostowing/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /home/ubuntu/miklostowing/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[?25h

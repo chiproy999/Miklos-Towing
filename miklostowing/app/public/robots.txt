@@ -1,0 +1,35 @@
+
+# Robots.txt for Miklos Towing - Optimized for AI Search Engines
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+# AI Search Engine Bots - Explicitly Allow
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Sitemap
+Sitemap: https://miklostowing.com/sitemap.xml
+
+# Host
+Host: https://miklostowing.com
