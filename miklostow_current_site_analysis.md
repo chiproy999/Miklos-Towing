@@ -66,7 +66,7 @@ This Includes Privet Property, Apartments, Local Business & Private parking Lots
 Requirements for Releasing a Vehicle from Impound
 
 • Proof of Ownership (Title or Current Registration)
-• Proof Of Insurance (only required at Law Enforcement Request 47 O.S & 72-955 A) Not Required on privet property impounds.
+• Proof Of Insurance (only required at Law Enforcement Request 47 O.S & 72-955 A) Not Required on private property impounds.
 • State Or Gov Photo Identification / Passport (That Matches Ownership)
 • For Insurance and Lienholders a Copy of Hold Harmless letter must be provided at the time of release signed & Notarized.
 • Tow Fee (we accept Cash , Cash App or Zelle Only) No checks will be accepted
